@@ -1,6 +1,6 @@
 # 📝 API Documentation
 
-##  Plater Information API
+##  Player Information API
 API Route = https://free-fire-data.vercel.app/api/data?region={region}&uid={uid}&key={key}
 
 **Endpoint:** `api/data`
@@ -151,6 +151,34 @@ The primary purpose of providing this free API is to enhance the Free Fire commu
 }
 
 ```
+
+##  Player Stats API
+API Route = https://free-fire-data.vercel.app/api/stats?region={region}&uid={uid}&key={key}
+
+**Endpoint:** `api/stats`
+**key:** `YOUR-KEY`
+**Method:** `GET`  
+
+This Endpoint Retrieves Player Information based on the Specified Region and User ID.
+
+### 📨 Request Example
+```http
+GET https://free-fire-data.vercel.app/api/stats?region=ind&uid=2180732447&key=KEY123
+```
+
+### ☑️ Query Parameters
+
+| Parameter | Type   | Required | Description                   |
+|-----------|--------|----------|-------------------------------|
+| `region`  | string | Yes      | The region code (`sg`, `ind`, `br`,`id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`, `bd`).|
+| `uid`     | int | Yes      | The user ID.                  |
+| `key`     | string | Yes      | Join https://t.me/FreeFireInfoSite to get Latest Key.                  |
+
+
+📚 **Purpose of the API**  
+
+The primary purpose of providing this free API is to enhance the Free Fire community experience. Garena Free Fire does not offer official account information APIs, so this custom solution aims to fill that gap, providing players and developers with valuable account data
+
 # 😵 Error Responses
 API might Show Error Response Upon Users' Inaccurate Requests!
 
