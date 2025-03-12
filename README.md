@@ -224,6 +224,7 @@ GET https://free-fire-data.vercel.app/api/stats?region=ind&uid=2180732447&key=KE
 
 ##  Images API
 API Route = https://free-fire-data.vercel.app/api/images?iconName={iconName}&key={key}
+
 **Endpoint:** `api/images`
 **key:** `YOUR-KEY`
 **Method:** `GET`  
