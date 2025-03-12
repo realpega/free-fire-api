@@ -20,7 +20,7 @@ GET https://free-fire-data.vercel.app/api/data?region=ind&uid=2180732447&key=KEY
 |-----------|--------|----------|-------------------------------|
 | `region`  | string | Yes      | The region code (`sg`, `ind`, `br`,`id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`, `bd`).|
 | `uid`     | int | Yes      | The user ID.                  |
-| `key`     | string | Yes      | Join https://t.me/FreeFireInfoSite to get Latest Key.                  |
+| `key`     | string | Yes      | Join https://t.me/TrueClasher4 to get Latest Key.                  |
 
 
 📚 **Purpose of the API**  
@@ -172,7 +172,7 @@ GET https://free-fire-data.vercel.app/api/stats?region=ind&uid=2180732447&key=KE
 |-----------|--------|----------|-------------------------------|
 | `region`  | string | Yes      | The region code (`sg`, `ind`, `br`,`id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`, `bd`).|
 | `uid`     | int | Yes      | The user ID.                  |
-| `key`     | string | Yes      | Join https://t.me/FreeFireInfoSite to get Latest Key.                  |
+| `key`     | string | Yes      | Join https://t.me/TrueClasher4 to get Latest Key.                  |
 
 
 ### 💬 Example of a Successful Reponse May Look Like this,
@@ -241,7 +241,7 @@ GET https://free-fire-data.vercel.app/api/images?iconName=Icon_avatar_hair_cos_e
 |-----------|--------|----------|-------------------------------|
 | `region`  | string | Yes      | The region code (`sg`, `ind`, `br`,`id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`, `bd`).|
 | `uid`     | int | Yes      | The user ID.                  |
-| `key`     | string | Yes      | Join https://t.me/FreeFireInfoSite to get Latest Key. 
+| `key`     | string | Yes      | Join https://t.me/TrueClasher4 to get Latest Key. 
 
 
 ### 💬 Example of a Successful Reponse May Look Like this,
