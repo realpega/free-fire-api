@@ -175,6 +175,53 @@ GET https://free-fire-data.vercel.app/api/stats?region=ind&uid=2180732447&key=KE
 | `key`     | string | Yes      | Join https://t.me/FreeFireInfoSite to get Latest Key.                  |
 
 
+### 💬 Example of a Successful Reponse May Look Like this,
+```json
+{
+  "success": true,
+  "soloStats": {
+    "accountId": "10000001",
+    "gamesPlayed": 2,
+    "kills": 7,
+    "detailedStats": {
+      "deaths": 2,
+      "distanceTravelled": 5309,
+      "survivalTime": 587,
+      "highestKills": 4,
+      "damage": 1764,
+      "headshots": 1,
+      "headshotKills": 1,
+      "pickUps": 146
+    }
+  },
+  "duoStats": {
+    "accountId": "10000001",
+    "detailedStats": {
+
+    }
+  },
+  "quadStats": {
+    "accountId": "10000001",
+    "gamesPlayed": 13,
+    "wins": 3,
+    "kills": 36,
+    "detailedStats": {
+      "deaths": 10,
+      "topNTimes": 6,
+      "distanceTravelled": 60689,
+      "survivalTime": 9210,
+      "revives": 4,
+      "highestKills": 6,
+      "damage": 17872,
+      "headshots": 16,
+      "headshotKills": 5,
+      "knockDown": 42,
+      "pickUps": 1536
+    }
+  }
+}
+```
+
 📚 **Purpose of the API**  
 
 The primary purpose of providing this free API is to enhance the Free Fire community experience. Garena Free Fire does not offer official account information APIs, so this custom solution aims to fill that gap, providing players and developers with valuable account data
