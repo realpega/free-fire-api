@@ -44,89 +44,109 @@ The primary purpose of providing this free API is to enhance the Free Fire commu
 ### 💬 Example of a Successful Reponse May Look Like this,
 ```json
 {
-  "Account Avatar Image": "https://library.freefireinfo.site/icons/902044006.png",
-  "Account Banner Image": "https://library.freefireinfo.site/icons/901043009.png",
-  "Account Booyah Pass": "Premium",
-  "Account Booyah Pass Badges": 44,
-  "Account Create Time (GMT 0530)": "2019-08-24 15:05:19",
-  "Account Evo Access Badge": "Inactive",
-  "Account Honor Score": 100,
-  "Account Language": "Language_EN",
-  "Account Last Login (GMT 0530)": "2024-06-11 14:11:54",
-  "Account Level": 69,
-  "Account Likes": 22540,
-  "Account Name": "FFLKㅤASTUTE",
-  "Account Region": "SG",
-  "Account Signature": "[c][b]TikTok : @astute_ff\nLEAD Team FFLK",
-  "Account UID": "1341742864",
-  "Account XP": 2756151,
-  "BR Rank Points": 3222,
-  "CS Rank Points": 59,
-  "Equipped Items": {
-    "profile": {
-      "Clothes": [
-        "https://library.freefireinfo.site/icons/203040003.png",
-        "https://library.freefireinfo.site/icons/211044002.png",
-        "https://library.freefireinfo.site/icons/204034043.png",
-        "https://library.freefireinfo.site/icons/205033044.png",
-        "https://library.freefireinfo.site/icons/211044041.png",
-        "https://library.freefireinfo.site/icons/214000082.png"
-      ],
-      "Equipped Skills": [16, 5306, 8, 1, 16, 2706, 8, 2, 16, 22016, 8, 3, 16, 5706],
-      "External Items": [
-        {
-          "Category": "Weapon Skin",
-          "Image URL": "https://library.freefireinfo.site/icons/907104110.png",
-          "Item ID": 907104110
-        },
-        {
-          "Category": "Animation Skin",
-          "Image URL": "https://library.freefireinfo.site/icons/912041001.png",
-          "Item ID": 912041001
-        },
-        {
-          "Category": "Transformation Skin",
-          "Image URL": "https://library.freefireinfo.site/icons/914000002.png",
-          "Item ID": 914000002
-        }
+  "basicInfo": {
+    "accountId": "2180732447",
+    "accountPrefers": {
+      "brPregameShowChoices": [
+        "1"
       ]
-    }
+    },
+    "accountType": "1",
+    "badgeId": "1001000082",
+    "bannerId": "901000263",
+    "createAt": "1594621308",
+    "csMaxRank": "201",
+    "csRank": "201",
+    "exp": "1102643",
+    "externalIconInfo": {
+      "showType": "ExternalIconShowType_FRIEND",
+      "status": "ExternalIconStatus_NOT_IN_USE"
+    },
+    "headPic": "902040025",
+    "lastLoginAt": "1700450083",
+    "level": "61",
+    "liked": "11182",
+    "maxRank": "301",
+    "nickname": "SOUNAVA 100K",
+    "pinId": "910000004",
+    "rank": "301",
+    "rankingPoints": "1000",
+    "region": "IND",
+    "releaseVersion": "OB42",
+    "seasonId": "44",
+    "title": "904090022",
+    "weaponSkinShows": [
+      "907102508",
+      "912037001"
+    ]
   },
-  "Equipped Pet Information": {
-    "Pet Level": 7,
-    "Pet Name": "FFLK",
-    "Pet Type": "Baboon",
-    "Pet XP": 6004,
-    "Selected?": true
+  "clanBasicInfo": {
+
   },
-  "Equipped Title": "Boom Artist",
-  "Guild Information": {
-    "Guild Capacity": 20,
-    "Guild Current Members": 15,
-    "Guild ID": "3052792498",
-    "Guild Level": 1,
-    "Guild Name": "FFLKㅤMASTERS",
-    "Leader ID": "1341742864"
+  "creditScoreInfo": {
+    "creditScore": "100",
+    "rewardState": "RewardState_UNCLAIMED"
   },
-  "Guild Leader Information": {
-    "Leader Ac Created Time (GMT 0530)": "2019-08-24 15:05:19",
-    "Leader Animations": [907104110, 912041001, 914000002],
-    "Leader Avatar Image": "https://library.freefireinfo.site/icons/902044006.png",
-    "Leader BP Badges": 44,
-    "Leader BR Points": 3222,
-    "Leader Banner Image": "https://library.freefireinfo.site/icons/901043009.png",
-    "Leader CS Points": 59,
-    "Leader Last Login Time (GMT 0530)": "2024-06-11 14:11:54",
-    "Leader Level": 69,
-    "Leader Likes": 22540,
-    "Leader Name": "FFLKㅤASTUTE",
-    "Leader Pin": 910000010,
-    "Leader Title": "Boom Artist",
-    "Leader UID": "1341742864",
-    "Leader XP": 2756151
+  "diamondCostRes": {
+    "diamondCost": "390"
   },
-  "Public Craftland Maps": {
-    "Map Codes": "{#FREEFIRE31BD4345E87C6A7C0A476B7343B5CD0B2864}"
+  "petInfo": {
+    "exp": "6022",
+    "id": "1300000112",
+    "isSelected": true,
+    "level": "7",
+    "name": "Bhai",
+    "selectedSkillId": "1315000018",
+    "skinId": "1310000124"
+  },
+  "profileInfo": {
+    "avatarId": "102000007",
+    "clothes": [
+      "211000411",
+      "211000894",
+      "214000023",
+      "204033044",
+      "205033048",
+      "203000981"
+    ],
+    "equipedSkills": [
+      {
+        "skillId": "706"
+      },
+      {
+        "skillId": "6501",
+        "slotId": "1"
+      },
+      {
+        "skillId": "2906",
+        "slotId": "2"
+      },
+      {
+        "skillId": "3406",
+        "slotId": "3"
+      }
+    ],
+    "isMarkedStar": true,
+    "isSelected": true,
+    "isSelectedAwaken": true,
+    "skinColor": "50"
+  },
+  "socialInfo": {
+    "accountId": "2180732447",
+    "battleTag": [
+      "PlayerBattleTagID_MELEE",
+      "PlayerBattleTagID_RAMPAGE"
+    ],
+    "battleTagCount": [
+      "172",
+      "107"
+    ],
+    "language": "Language_EN",
+    "signature": "GOING OFFLINE FOR 7 DAYS TO UNBAN ID",
+    "socialTag": [
+      "SocialTag_FASHION",
+      "SocialTag_VETERAN"
+    ]
   }
 }
 
