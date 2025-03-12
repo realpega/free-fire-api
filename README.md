@@ -1,17 +1,17 @@
 # 📝 API Documentation
 
-##  Account Information API
-API Route = https://www.public.freefireinfo.site/api/info/{region}/{uid}?key={key}
+##  Plater Information API
+API Route = https://free-fire-data.vercel.app/api/data?region={region}&uid={uid}&key={key}
 
-**Endpoint:** `api/info`
-**key:** `astute_ff`
+**Endpoint:** `api/data`
+**key:** `YOUR-KEY`
 **Method:** `GET`  
 
-This Endpoint Retrieves Account Information based on the Specified Region and User ID.
+This Endpoint Retrieves Player Information based on the Specified Region and User ID.
 
 ### 📨 Request Example
 ```http
-GET https://www.public.freefireinfo.site/api/info/sg/1341742864?key=astute_ff
+GET https://free-fire-data.vercel.app/api/data?region=ind&uid=2180732447&key=KEY123
 ```
 
 ### ☑️ Query Parameters
@@ -150,5 +150,5 @@ API might Show Error Response Upon Users' Inaccurate Requests!
 
 ---
 
-API Made By Theekshana(ASTUTE),
+API Made By Sounava777,
 All Rights Reserved!
