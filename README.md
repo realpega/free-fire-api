@@ -245,9 +245,9 @@ GET https://free-fire-data.vercel.app/api/images?iconName=Icon_avatar_hair_cos_e
 
 
 ### 💬 Example of a Successful Reponse May Look Like this,
-```json
 
-```
+![Icon_avatar_hair_cos_eggday2021_headwear_blue](https://github.com/realpega/free-fire-api/blob/main/images.png)
+
 
 📚 **Purpose of the API**  
 
