@@ -248,6 +248,58 @@ GET https://free-fire-data.vercel.app/api/images?iconName=Icon_avatar_hair_cos_e
 
 ![Icon_avatar_hair_cos_eggday2021_headwear_blue](https://github.com/realpega/free-fire-api/blob/main/images.png)
 
+##  Craftland Map Info API
+API Route = https://free-fire-data.vercel.app/api/maps?region={region}&code={%23CODE}&key={key}
+
+**Endpoint:** `api/maps`
+**key:** `YOUR-KEY`
+**Method:** `GET`  
+
+This Endpoint Retrieves Player Information based on the Specified Region and User ID.
+
+### 📨 Request Example
+```http
+GET https://free-fire-data.vercel.app/api/maps?region=sg&code=%23FREEFIREMAPCODE6969&key=KEY123
+```
+
+### ☑️ Query Parameters
+
+| Parameter | Type   | Required | Description                   |
+|-----------|--------|----------|-------------------------------|
+| `region`  | string | Yes      | The region code (`sg`, `ind`, `br`,`id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`, `bd`).|
+| `code`     | String | Yes      | The map code.                  |
+| `key`     | string | Yes      | Buy Key from https://t.me/TrueClasher4                  |
+
+
+### 💬 Example of a Successful Reponse May Look Like this,
+```
+{
+  "status": "success",
+  "data": {
+    "region": "SG",
+    "lang": "en",
+    "Craftland Map Details": {
+      "MapCode": "#FREEFIREMAPCODE6969",
+      "Creator": "SOUNAVA 100K",
+      "Title": "Booyah!",
+      "Description": "Battle in Style!",
+      "MapCover": "https://dl-sg-production.freefiremobile.com/3C124B_7104104913_10007_1726822648_MAPCOVER.JPG",
+      "Subscribers": 690000,
+      "Likes": 696969,
+      "Teams": 2,
+      "PlayAverage": 690069
+      "Rounds": 1,
+      "Tags": [
+        "PvP",
+        "Squad"
+      ],
+      "MiniMap": "APD//z8AAMD///8AAAD///8DAAD8//8PAADw//8/AADA////AAAAAfCAAwAAHIABDgAAcAAAOAAAwAEA4AAAAAcAgAMAABweAA4AAHB4ADgAAMDhP5AAAACH/0ACAAAc/sMPAABwAAA4AADAAQDgAAAAHwCAAwAAfAAADgAAcH74OQAAwPnh5wAAAP+HnwMAAPwffg4AAHB++DkAAMD56ecAAADnh/8DAACc3/4PAABwgAc4AADAAQzgAAAABzDgAwAAHACADwAAcAAAOAAAwAEA4AAAAD/8hwMAACTwHw4AAJDAfzgAAMAB4OEAAAAHgIcDAAAcAAAOAABwAAA4AADAAQDgAAAAB2CAAwAAHMADCAAA8P//PwAAwP///wAAAP///wMAAPz//w8AAPD//z8AAMD///8AAA==",
+      "Mode": "Customize",
+      "Map": "Bermuda"
+    }
+  }
+}
+```
 
 📚 **Purpose of the API**  
 
