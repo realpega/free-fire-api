@@ -23,24 +23,6 @@ GET https://free-fire-data.vercel.app/api/data?region=ind&uid=2180732447&key=KEY
 | `key`     | string | Yes      | Buy Key from https://t.me/TrueClasher4                  |
 
 
-📚 **Purpose of the API**  
-
-The primary purpose of providing this free API is to enhance the Free Fire community experience. Garena Free Fire does not offer official account information APIs, so this custom solution aims to fill that gap, providing players and developers with valuable account data
-
-
-🧩 **(Some of🤫) Frameworks and Libraries Used**  
-- **Flask**: A micro web framework for Python to build the API endpoints.
-- **Flask-CORS**: For handling Cross-Origin Resource Sharing (CORS).
-- **PyCryptodome**: For implementing Decryption and Encryption.
-- **Requests**: For making HTTP Requests to Server.
-
-# 📁 Additional Information
-
-- This API response Does not Represent the Actual Structure Received from the Official Garena Server.
-- The Response structure is simplified in an User-Friendly Structure for the ease of understanding for Anyone at any level of Programming.
-- All images related to item IDs shown by the API response (e.g., avatars, banners, outfits, weapons) are available at `https://www.library.freefireinfo.site/icons/{item_code}.png` for the convenience of API users in their development projects.
-
-
 ### 💬 Example of a Successful Reponse May Look Like this,
 ```json
 {
@@ -267,7 +249,7 @@ GET https://free-fire-data.vercel.app/api/maps?region=sg&code=%23FREEFIREMAPCODE
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
 | `region`  | string | Yes      | The region code (`sg`, `ind`, `br`,`id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`, `bd`).|
-| `code`     | String | Yes      | The map code.                  |
+| `code`     | String | Yes      | The map code with `%23` prefix.                  |
 | `key`     | string | Yes      | Buy Key from https://t.me/TrueClasher4                  |
 
 
@@ -301,9 +283,45 @@ GET https://free-fire-data.vercel.app/api/maps?region=sg&code=%23FREEFIREMAPCODE
 }
 ```
 
+##  Player Wishlist API
+API Route = https://free-fire-data.vercel.app/api/wishlist?region={region}&uid={uid}&key={key}
+
+**Endpoint:** `api/wishlist`
+**key:** `YOUR-KEY`
+**Method:** `GET`  
+
+This Endpoint Retrieves Player Information based on the Specified Region and User ID.
+
+### 📨 Request Example
+```http
+GET https://free-fire-data.vercel.app/api/wishlist?region=ind&uid=2180732447&key=KEY123
+```
+
+### ☑️ Query Parameters
+
+| Parameter | Type   | Required | Description                   |
+|-----------|--------|----------|-------------------------------|
+| `region`  | string | Yes      | The region code (`sg`, `ind`, `br`,`id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`, `bd`).|
+| `uid`     | int | Yes      | The user ID.                  |
+| `key`     | string | Yes      | Buy Key from https://t.me/TrueClasher4                  |
+
+
+### 💬 Example of a Successful Reponse May Look Like this,
+
 📚 **Purpose of the API**  
 
 The primary purpose of providing this free API is to enhance the Free Fire community experience. Garena Free Fire does not offer official account information APIs, so this custom solution aims to fill that gap, providing players and developers with valuable account data
+
+🧩 **(Some of🤫) Frameworks and Libraries Used**  
+- **Flask**: A micro web framework for Python to build the API endpoints.
+- **Flask-CORS**: For handling Cross-Origin Resource Sharing (CORS).
+- **PyCryptodome**: For implementing Decryption and Encryption.
+- **Requests**: For making HTTP Requests to Server.
+
+# 📁 Additional Information
+
+- This API response Does not Represent the Actual Structure Received from the Official Garena Server.
+- The Response structure is simplified in an User-Friendly Structure for the ease of understanding for Anyone at any level of Programming.
 
 # 😵 Error Responses
 API might Show Error Response Upon Users' Inaccurate Requests!
