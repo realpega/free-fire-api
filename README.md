@@ -254,7 +254,7 @@ GET https://free-fire-data.vercel.app/api/maps?region=sg&code=%23FREEFIREMAPCODE
 
 
 ### 💬 Example of a Successful Reponse May Look Like this,
-```
+```json
 {
   "status": "success",
   "data": {
@@ -307,6 +307,133 @@ GET https://free-fire-data.vercel.app/api/wishlist?region=ind&uid=2180732447&key
 
 
 ### 💬 Example of a Successful Reponse May Look Like this,
+
+```json
+{
+  "items": [
+    {
+      "itemId": 102000035,
+      "releaseTime": 1709233149
+    },
+    {
+      "itemId": 203000036,
+      "releaseTime": 1710238335
+    },
+    {
+      "itemId": 203000981,
+      "releaseTime": 1706079412
+    },
+    {
+      "itemId": 204033044,
+      "releaseTime": 1706079412
+    },
+    {
+      "itemId": 205033048,
+      "releaseTime": 1706079412
+    },
+    {
+      "itemId": 211000411,
+      "releaseTime": 1706079412
+    },
+    {
+      "itemId": 211000894,
+      "releaseTime": 1706079412
+    },
+    {
+      "itemId": 214000023,
+      "releaseTime": 1706079412
+    },
+    {
+      "itemId": 901040034,
+      "releaseTime": 1727692721
+    },
+    {
+      "itemId": 902000003,
+      "releaseTime": 1710238335
+    },
+    {
+      "itemId": 902040026,
+      "releaseTime": 1710238335
+    },
+    {
+      "itemId": 902040029,
+      "releaseTime": 1710238335
+    },
+    {
+      "itemId": 902040030,
+      "releaseTime": 1710238335
+    },
+    {
+      "itemId": 903040007,
+      "releaseTime": 1727692721
+    },
+    {
+      "itemId": 903043010,
+      "releaseTime": 1710238335
+    },
+    {
+      "itemId": 904040010,
+      "releaseTime": 1727692721
+    },
+    {
+      "itemId": 904090027,
+      "releaseTime": 1707398570
+    },
+    {
+      "itemId": 905039004,
+      "releaseTime": 1710238335
+    },
+    {
+      "itemId": 906036010,
+      "releaseTime": 1706524016
+    },
+    {
+      "itemId": 907102508,
+      "releaseTime": 1706079412
+    },
+    {
+      "itemId": 907104073,
+      "releaseTime": 1727692721
+    },
+    {
+      "itemId": 907104074,
+      "releaseTime": 1727692721
+    },
+    {
+      "itemId": 907104075,
+      "releaseTime": 1727692721
+    },
+    {
+      "itemId": 907104076,
+      "releaseTime": 1727692721
+    },
+    {
+      "itemId": 907104077,
+      "releaseTime": 1727692721
+    },
+    {
+      "itemId": 909040014,
+      "releaseTime": 1727692721
+    },
+    {
+      "itemId": 909043013,
+      "releaseTime": 1707543814
+    },
+    {
+      "itemId": 911004301,
+      "releaseTime": 1710238335
+    },
+    {
+      "itemId": 912037001,
+      "releaseTime": 1706079412
+    },
+    {
+      "itemId": 921047018,
+      "releaseTime": 1735657844
+    }
+  ]
+}
+```
 
 📚 **Purpose of the API**  
 
