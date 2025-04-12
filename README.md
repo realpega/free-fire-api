@@ -231,7 +231,7 @@ GET https://free-fire-data.vercel.app/api/images?iconName=Icon_avatar_hair_cos_e
 ![Icon_avatar_hair_cos_eggday2021_headwear_blue](https://github.com/realpega/free-fire-api/blob/main/images.png)
 
 ##  Craftland Map Info API
-API Route = https://free-fire-data.vercel.app/api/maps?region={region}&code={%23CODE}&key={key}
+API Route = https://free-fire-data.vercel.app/api/maps?region={region}&code=%23{CODE}&key={key}
 
 **Endpoint:** `api/maps`
 **key:** `YOUR-KEY`
