@@ -27,111 +27,80 @@ GET https://free-fire-data.vercel.app/api/data?region=ind&uid=2180732447&key=KEY
 ```json
 {
   "basicInfo": {
-    "accountId": "2180732447",
-    "accountPrefers": {
-      "brPregameShowChoices": [
-        "1"
-      ]
-    },
-    "accountType": "1",
-    "badgeId": "1001000082",
-    "bannerId": "901000263",
-    "createAt": "1594621308",
-    "csMaxRank": "201",
-    "csRank": "201",
-    "exp": "1102643",
-    "externalIconInfo": {
-      "showType": "ExternalIconShowType_FRIEND",
-      "status": "ExternalIconStatus_NOT_IN_USE"
-    },
-    "headPic": "902040025",
-    "lastLoginAt": "1700450083",
-    "level": "61",
-    "liked": "11182",
-    "maxRank": "301",
-    "nickname": "SOUNAVA 100K",
-    "pinId": "910000004",
-    "rank": "301",
-    "rankingPoints": "1000",
+    "accountId": 2129250963,
+    "accountType": 1,
+    "bannerId": 901026021,
+    "bpStatus": null,
+    "brMaxRank": 316,
+    "brRank": 2768,
+    "createAt": 1747304828,
+    "csMaxRank": 316,
+    "csRank": 45,
+    "exp": 133627,
+    "headPic": 902000057,
+    "lastLoginAt": 1593158767,
+    "level": 42,
+    "liked": 4957,
+    "nickname": "SOUNAVA 500K",
     "region": "IND",
-    "releaseVersion": "OB42",
-    "seasonId": "44",
-    "title": "904090022",
-    "weaponSkinShows": [
-      "907102508",
-      "912037001"
-    ]
+    "releaseVersion": "OB48",
+    "showBrRank": true,
+    "showCsRank": true,
+    "title": 904090024
   },
-  "clanBasicInfo": {
-
+  "captainBasicInfo": {
+    "accountId": 2129250963,
+    "accountType": 1,
+    "badgeCnt": 42,
+    "bannerId": 901026021,
+    "brMaxRank": 316,
+    "brRank": 316,
+    "brRankingPoints": 2768,
+    "createAt": 1593158767,
+    "csMaxRank": 305,
+    "csRank": 305,
+    "csRankingPoints": 17,
+    "exp": 133627,
+    "headPic": 902000057,
+    "lastLoginAt": 1747304828,
+    "level": 42,
+    "liked": 4957,
+    "nickname": "SOUNAVA 500K",
+    "region": "IND",
+    "releaseVersion": "OB48",
+    "seasonId": 45
   },
+  "clanBasicInfo": [
+    {
+      "capacity": 25,
+      "captainId": 2129250963,
+      "clanId": 3000167557,
+      "clanLevel": 1,
+      "clanName": "〆ᗷᖇᝪᎢᕼᗴᖇ",
+      "memberNum": 5
+    }
+  ],
   "creditScoreInfo": {
-    "creditScore": "100",
-    "rewardState": "RewardState_UNCLAIMED"
-  },
-  "diamondCostRes": {
-    "diamondCost": "390"
+    "creditScore": 100,
+    "periodicSummaryEndTime": 1747564036,
+    "periodicSummaryStartTime": 1747304836,
+    "rewardState": 2
   },
   "petInfo": {
-    "exp": "6022",
-    "id": "1300000112",
-    "isSelected": true,
-    "level": "7",
-    "name": "Bhai",
-    "selectedSkillId": "1315000018",
-    "skinId": "1310000124"
-  },
-  "profileInfo": {
-    "avatarId": "102000007",
-    "clothes": [
-      "211000411",
-      "211000894",
-      "214000023",
-      "204033044",
-      "205033048",
-      "203000981"
-    ],
-    "equipedSkills": [
-      {
-        "skillId": "706"
-      },
-      {
-        "skillId": "6501",
-        "slotId": "1"
-      },
-      {
-        "skillId": "2906",
-        "slotId": "2"
-      },
-      {
-        "skillId": "3406",
-        "slotId": "3"
-      }
-    ],
-    "isMarkedStar": true,
-    "isSelected": true,
-    "isSelectedAwaken": true,
-    "skinColor": "50"
+    "exp": 548,
+    "id": 1300000120,
+    "level": 4,
+    "nickname": null,
+    "selectedSkillId": 1310000201,
+    "skinId": 1315000010
   },
   "socialInfo": {
-    "accountId": "2180732447",
-    "battleTag": [
-      "PlayerBattleTagID_MELEE",
-      "PlayerBattleTagID_RAMPAGE"
-    ],
-    "battleTagCount": [
-      "172",
-      "107"
-    ],
-    "language": "Language_EN",
-    "signature": "GOING OFFLINE FOR 7 DAYS TO UNBAN ID",
-    "socialTag": [
-      "SocialTag_FASHION",
-      "SocialTag_VETERAN"
-    ]
+    "accountId": 2129250963,
+    "brRankShow": 1,
+    "csRankShow": null,
+    "signature": "i've lost my acc,  pls add me again MARVEL-CLINT"
   }
 }
-
 ```
 
 ##  Player Stats API
@@ -256,28 +225,108 @@ GET https://free-fire-data.vercel.app/api/maps?region=sg&code=%23FREEFIREMAPCODE
 ### 💬 Example of a Successful Reponse May Look Like this,
 ```json
 {
+  "code": 0,
   "status": "success",
+  "msg": "",
   "data": {
+    "region_lang": "SG_en",
+    "start_time": 1,
+    "end_time": 1890713325,
+    "rule": "Garena Free Fire",
     "region": "SG",
     "lang": "en",
-    "Craftland Map Details": {
-      "MapCode": "#FREEFIREMAPCODE6969",
-      "Creator": "SOUNAVA 100K",
-      "Title": "Booyah!",
-      "Description": "Battle in Style!",
-      "MapCover": "https://dl-sg-production.freefiremobile.com/3C124B_7104104913_10007_1726822648_MAPCOVER.JPG",
-      "Subscribers": 690000,
-      "Likes": 696969,
-      "Teams": 2,
-      "PlayAverage": 690069
-      "Rounds": 1,
-      "Tags": [
-        "PvP",
-        "Squad"
-      ],
-      "MiniMap": "APD//z8AAMD///8AAAD///8DAAD8//8PAADw//8/AADA////AAAAAfCAAwAAHIABDgAAcAAAOAAAwAEA4AAAAAcAgAMAABweAA4AAHB4ADgAAMDhP5AAAACH/0ACAAAc/sMPAABwAAA4AADAAQDgAAAAHwCAAwAAfAAADgAAcH74OQAAwPnh5wAAAP+HnwMAAPwffg4AAHB++DkAAMD56ecAAADnh/8DAACc3/4PAABwgAc4AADAAQzgAAAABzDgAwAAHACADwAAcAAAOAAAwAEA4AAAAD/8hwMAACTwHw4AAJDAfzgAAMAB4OEAAAAHgIcDAAAcAAAOAABwAAA4AADAAQDgAAAAB2CAAwAAHMADCAAA8P//PwAAwP///wAAAP///wMAAPz//w8AAPD//z8AAMD///8AAA==",
-      "Mode": "Customize",
-      "Map": "Bermuda"
+    "title": "Garena Free Fire",
+    "android_download_url": "https://play.google.com/store/apps/details?id=com.dts.freefireth&referrer=af_tranid%3DgTVeQgRDoYWAmOvmEZz6Xw%26pid%3DOrganicA%26c%3Dmainpage_AND%26af_web_id%3Da209618f-0ae1-4239-bed0-46bcfb0c9656-c",
+    "ios_download_url": "https://apps.apple.com/US/app/id1300146617?mt=8",
+    "ugc_url": "https://createofficial.garena.com/",
+    "imgs": [
+      "https://dl.dir.freefiremobile.com/common/OB46/CSH/Devs/WebCDN/BACKGROUND01.png",
+      "https://dl.dir.freefiremobile.com/common/OB46/CSH/Devs/WebCDN/BACKGROUND02.png",
+      "https://dl.dir.freefiremobile.com/common/OB46/CSH/Devs/WebCDN/BACKGROUND03.png",
+      "https://dl.dir.freefiremobile.com/common/OB46/CSH/Devs/WebCDN/BACKGROUND04.png",
+      "https://dl.dir.freefiremobile.com/common/OB46/CSH/Devs/WebCDN/BACKGROUND05.png"
+    ],
+    "game_icon": "https://dl.dir.freefiremobile.com/common/OB45/CSH/abcdfallstorebanners/appicon/FF_AndroidIcon_512.png",
+    "game_name": "Free Fire: 7th Anniversary!",
+    "transify": {
+      "COMMON_ACCEPT": "ACCEPT",
+      "COMMON_BACK": "Back",
+      "COMMON_CANCEL": "Cancel",
+      "COMMON_CONFIRM": "Confirm",
+      "COMMON_CONTINUE_PURCHASE": "Continue to buy",
+      "COMMON_COPY": "Copy",
+      "COMMON_COPY_FAILED": "Copy Failed",
+      "COMMON_COPY_SUCCESS": "copy successful",
+      "COMMON_EXCHANGE": "redeem",
+      "COMMON_EXCHANGED": "redeemed",
+      "COMMON_FFTOKEN_HINT": "Converted to {num}{ff token icon}",
+      "COMMON_FREE": "free",
+      "COMMON_GEM_CONFIRM": "Spend {cost} gem(s) to purchase {NAME}?",
+      "COMMON_GEM_CONFIRM2": "Spend {cost} gems for {num} spin(s)?",
+      "COMMON_HISTORY_DRAW": "History",
+      "COMMON_HISTORY_NORECORDS": "No records",
+      "COMMON_HISTORY_PURCHASE": "Purchase history",
+      "COMMON_HISTORY_REDEEM": "Redeem history",
+      "COMMON_NO": "No",
+      "COMMON_OWNED": "OWNED",
+      "COMMON_PRIZEPOOL": "Rewards pool",
+      "COMMON_PURCHASE": "Purchase",
+      "COMMON_PURCHASED": "Purchased",
+      "COMMON_QUANTITY_MAX": "max",
+      "COMMON_REDEEM_CONFIRM": "Are you sure to redeem this item?",
+      "COMMON_REJECT": "Decline",
+      "COMMON_RULE": "Rules",
+      "COMMON_SKIP": "Skip animation",
+      "COMMON_SKIPANIMATION_TIP": "Tap anywhere to skip animation",
+      "COMMON_SPIN_AGAIN": "Spin Again",
+      "COMMON_TIPS_ITEM": "The rewards will be sent directly to your vault",
+      "COMMON_TIPS_TOKEN": "tokens have been automatically accumulated",
+      "COMMON_VISIT_GIFT": "Welcome gift",
+      "COMMON_YES": "Yes",
+      "POPUP_NO_REMIND": "Don't remind me again",
+      "POPUP_TITLE_CONGRATULATIONS": "Congratulations!",
+      "POPUP_TITLE_REDEEM": "Congratulation! You got",
+      "POPUP_TITLE_UNIQUE": "The unique items you own",
+      "UNIQUE_BUY_ALREADY_HAVE": "You already own this item, if you purchase it again, it will be converted to FF tokens",
+      "UNIQUE_BUY_ALREADY_HAVE_PART": "You already own some of the item(s) you selected. If you receive again, it will be converted to FF tokens.",
+      "UNIQUE_REDEEM_ALREADY_HAVE": "You already own this item, if you receive it again, it will be converted to FF tokens.",
+      "TOAST_ERROR_CODE": "Unknown error, error code {code}",
+      "TOAST_EVENTOVER": "Event ended",
+      "TOAST_EVENT_CLOSED_AWHILE": "The event is closed temporarily. Please check again later.",
+      "TOAST_EVENT_END": "Event ended",
+      "TOAST_EVENT_NOTOPEN": "Event hasn't started",
+      "TOAST_EXCHANGE_SUCCESS": "Successfully Redeemed",
+      "TOAST_GEM_NOT_ENOUGH": "Insufficient diamonds, please top up and come back again",
+      "TOAST_LOGIN_FAILED": "Login failed",
+      "TOAST_NETWORK_BUSY": "Server busy, please try again later",
+      "TOAST_NETWORK_ERROR": "Network connection error, please try again later",
+      "TOAST_OPERATE_BUSY": "Too many requests, please try again later",
+      "TOAST_PAY_FAILED": "Purchase failed",
+      "TOAST_PURCHASE_SUCCESS": "Purchase Successful",
+      "TOAST_SERVER_BUSY": "Server busy, please try again later",
+      "TOAST_SERVER_NOTWORK": "Service unavailable",
+      "TOAST_SERVER_TIMEOUT": "Service timeout",
+      "TOAST_WRONG_REGION": "This event is not available for your region",
+      "COMMON_CALLBACK": "Join the Fight!",
+      "COMMON_JOIN": "Join",
+      "COMMON_SHOOT": "Tap on the targets",
+      "COMMON_SHOOT_2": "Good Job! To continue, please head to Free Fire!",
+      "UGC_46_MAPSHARE_GOBUTTON": "EXPLORE MORE",
+      "UGC_46_MAPSHARE_PLAYBUTTON": "PLAY NOW",
+      "UGC_46_MAPSHARE_WRONGMESSAGE": "SORRY, THIS MAP IS NOT AVAILABLE AT THE MOMENT.",
+      "UGC_47_MAPSHARE_MAPCODE": "Map Code",
+      "UGC_47_MAPSHARE_NAME": "Creator Name",
+      "UGC_47_MAPSHARE_TOAST1": "Copied successfully",
+      "UGC_47_MAPSHARE_TOAST2": "Failed to copy"
+    },
+    "share_img": "https://dl.dir.freefiremobile.com/common/OB46/CSH/Devs/WebCDN/SOFTFF.jpg",
+    "desc_prefix": "[Free Fire]{desc}",
+    "source_params": {
+      "region": "",
+      "lang": "en",
+      "version": "",
+      "action": "",
+      "map_code": ""
     }
   }
 }
