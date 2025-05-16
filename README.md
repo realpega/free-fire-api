@@ -196,7 +196,7 @@ Query Parameter `BR` is for all regions that come under `client.us.freefiremobil
 ##  Likes API
 API Route = https://free-fire-data.vercel.app/api/like?region={region}&uid={uid}&key={key}
 
-**Endpoint:** `api/data`
+**Endpoint:** `api/like`
 **key:** `YOUR-KEY`
 **Method:** `GET`  
 
@@ -235,6 +235,103 @@ Query Parameter `BR` is for all regions that come under `client.us.freefiremobil
     "LikesGivenByAPI": 100,
     "LikesafterCommand": 6969,
     "LikesbeforeCommand": 6869,
+    "PlayerLevel": 69,
+    "PlayerNickname": "SOUNAVA 500K",
+    "UID": "2129250963"
+  },
+  "status": 1
+}
+```
+
+##  Visits API
+API Route = https://free-fire-data.vercel.app/api/visit?region={region}&uid={uid}&key={key}
+
+**Endpoint:** `api/visit`
+**key:** `YOUR-KEY`
+**Method:** `GET`  
+
+This Endpoint Sends 100 Visits to the Player's Account based on the Specified Region and User ID.
+
+### 📨 Request Example
+```http
+GET https://free-fire-data.vercel.app/api/visit?region=ind&uid=2180732447&key=KEY123
+```
+
+### ☑️ Query Parameters
+
+| Parameter | Type   | Required | Description                   |
+|-----------|--------|----------|-------------------------------|
+| `region`  | string | Yes      | The region code (`sg`, `ind`, `br`)|
+| `uid`     | int    | Yes      | The user ID                   |
+| `key`     | string | Yes      | Buy Key from https://t.me/TrueClasher4                  |
+
+### ℹ️ Important Note
+
+Query Parameter `SG` is for all regions that come under `clientbp.ggblueshark.com`
+[`SG`, `ID`, `ME`, `VN`, `TH`, `CIS`, `EU`, `TW`, `MY`, `PK`, `BD`]
+
+Query Parameter `IND` is only for India and it comes under `client.ind.freefiremobile.com `
+[`IND`]
+
+Query Parameter `BR` is for all regions that come under `client.us.freefiremobile.com`
+[`BR`, `US`, `NA`, `LATAM`]
+
+### 💬 Example of a Successful Reponse May Look Like this,
+```json
+{
+  "response": {
+    "KeyExpiresAt": "2025-03-20T90:30:00.696969",
+    "KeyRemainingRequests": "69/100",
+    "VisitsSentByAPI": 100,
+    "PlayerLevel": 69,
+    "PlayerNickname": "SOUNAVA 500K",
+    "UID": "2129250963"
+  },
+  "status": 1
+}
+```
+
+##  Spam API
+API Route = https://free-fire-data.vercel.app/api/spam?region={region}&uid={uid}&key={key}
+
+**Endpoint:** `api/spam`
+**key:** `YOUR-KEY`
+**Method:** `GET`  
+
+This Endpoint Spams 100 Friend Requests to the Player's Account based on the Specified Region and User ID.
+
+### 📨 Request Example
+```http
+GET https://free-fire-data.vercel.app/api/spam?region=ind&uid=2180732447&key=KEY123
+```
+
+### ☑️ Query Parameters
+
+| Parameter | Type   | Required | Description                   |
+|-----------|--------|----------|-------------------------------|
+| `region`  | string | Yes      | The region code (`sg`, `ind`, `br`)|
+| `uid`     | int    | Yes      | The user ID                   |
+| `key`     | string | Yes      | Buy Key from https://t.me/TrueClasher4                  |
+
+### ℹ️ Important Note
+
+Query Parameter `SG` is for all regions that come under `clientbp.ggblueshark.com`
+[`SG`, `ID`, `ME`, `VN`, `TH`, `CIS`, `EU`, `TW`, `MY`, `PK`, `BD`]
+
+Query Parameter `IND` is only for India and it comes under `client.ind.freefiremobile.com `
+[`IND`]
+
+Query Parameter `BR` is for all regions that come under `client.us.freefiremobile.com`
+[`BR`, `US`, `NA`, `LATAM`]
+
+### 💬 Example of a Successful Reponse May Look Like this,
+```json
+{
+  "response": {
+    "KeyExpiresAt": "2025-03-20T90:30:00.696969",
+    "KeyRemainingRequests": "69/100",
+    "FriendRequestsSentByAPI": 100,
+    "isPlayerOnline": true,
     "PlayerLevel": 69,
     "PlayerNickname": "SOUNAVA 500K",
     "UID": "2129250963"
