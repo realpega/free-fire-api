@@ -22,7 +22,6 @@ GET https://free-fire-data.vercel.app/api/data?region=ind&uid=2180732447&key=KEY
 | `uid`     | int    | Yes      | The user ID                   |
 | `key`     | string | Yes      | Buy Key from https://t.me/TrueClasher4                  |
 
-
 ### ℹ️ Important Note
 
 Query Parameter `SG` is for all regions that come under `clientbp.ggblueshark.com`
@@ -33,7 +32,6 @@ Query Parameter `IND` is only for India and it comes under `client.ind.freefirem
 
 Query Parameter `BR` is for all regions that come under `client.us.freefiremobile.com`
 [`BR`, `US`, `NA`, `LATAM`]
-
 
 ### 💬 Example of a Successful Reponse May Look Like this,
 ```json
@@ -133,10 +131,20 @@ GET https://free-fire-data.vercel.app/api/stats?region=ind&uid=2180732447&key=KE
 
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
-| `region`  | string | Yes      | The region code (`sg`, `ind`, `br`,`id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`, `bd`).|
-| `uid`     | int | Yes      | The user ID.                  |
+| `region`  | string | Yes      | The region code (`sg`, `ind`, `br`)|
+| `uid`     | int    | Yes      | The user ID                   |
 | `key`     | string | Yes      | Buy Key from https://t.me/TrueClasher4                  |
 
+### ℹ️ Important Note
+
+Query Parameter `SG` is for all regions that come under `clientbp.ggblueshark.com`
+[`SG`, `ID`, `ME`, `VN`, `TH`, `CIS`, `EU`, `TW`, `MY`, `PK`, `BD`]
+
+Query Parameter `IND` is only for India and it comes under `client.ind.freefiremobile.com `
+[`IND`]
+
+Query Parameter `BR` is for all regions that come under `client.us.freefiremobile.com`
+[`BR`, `US`, `NA`, `LATAM`]
 
 ### 💬 Example of a Successful Reponse May Look Like this,
 ```json
@@ -229,10 +237,20 @@ GET https://free-fire-data.vercel.app/api/maps?region=sg&code=%23FREEFIREMAPCODE
 
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
-| `region`  | string | Yes      | The region code (`sg`, `ind`, `br`,`id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`, `bd`).|
-| `code`     | String | Yes      | The map code with `%23` prefix.                  |
+| `region`  | string | Yes      | The region code (`sg`, `ind`, `br`)|
+| `uid`     | int    | Yes      | The user ID                   |
 | `key`     | string | Yes      | Buy Key from https://t.me/TrueClasher4                  |
 
+### ℹ️ Important Note
+
+Query Parameter `SG` is for all regions that come under `clientbp.ggblueshark.com`
+[`SG`, `ID`, `ME`, `VN`, `TH`, `CIS`, `EU`, `TW`, `MY`, `PK`, `BD`]
+
+Query Parameter `IND` is only for India and it comes under `client.ind.freefiremobile.com `
+[`IND`]
+
+Query Parameter `BR` is for all regions that come under `client.us.freefiremobile.com`
+[`BR`, `US`, `NA`, `LATAM`]
 
 ### 💬 Example of a Successful Reponse May Look Like this,
 ```json
@@ -362,10 +380,20 @@ GET https://free-fire-data.vercel.app/api/wishlist?region=ind&uid=2180732447&key
 
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
-| `region`  | string | Yes      | The region code (`sg`, `ind`, `br`,`id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`, `bd`).|
-| `uid`     | int | Yes      | The user ID.                  |
+| `region`  | string | Yes      | The region code (`sg`, `ind`, `br`)|
+| `uid`     | int    | Yes      | The user ID                   |
 | `key`     | string | Yes      | Buy Key from https://t.me/TrueClasher4                  |
 
+### ℹ️ Important Note
+
+Query Parameter `SG` is for all regions that come under `clientbp.ggblueshark.com`
+[`SG`, `ID`, `ME`, `VN`, `TH`, `CIS`, `EU`, `TW`, `MY`, `PK`, `BD`]
+
+Query Parameter `IND` is only for India and it comes under `client.ind.freefiremobile.com `
+[`IND`]
+
+Query Parameter `BR` is for all regions that come under `client.us.freefiremobile.com`
+[`BR`, `US`, `NA`, `LATAM`]
 
 ### 💬 Example of a Successful Reponse May Look Like this,
 
