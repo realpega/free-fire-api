@@ -1,3 +1,9 @@
+# <a href="README_BR.md">Leia em Português</a>
+# <a href="README_ES.md">Leer en Español</a>
+# <a href="README_RU.md">Читать на Русском языке</a>
+
+<br />
+
 # 📝 API Documentation
 
 ##  Player Information API
