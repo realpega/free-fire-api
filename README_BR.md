@@ -507,3 +507,201 @@ Parâmetro de consulta `BR` é para todas as regiões que estão sob `client.us.
   }
 }
 ```
+
+## API de Lista de Desejos do Jogador
+Rota da API = https://free-fire-data.vercel.app/api/wishlist?region={region}&uid={uid}&key={key}
+
+**Endpoint:** `api/wishlist`  
+**Chave:** `SUA-CHAVE`  
+**Método:** `GET`  
+
+Este endpoint recupera informações do jogador com base na região e ID de usuário especificados.
+
+### 📨 Exemplo de Requisição
+```http
+GET https://free-fire-data.vercel.app/api/wishlist?region=ind&uid=2180732447&key=KEY123
+```
+
+### ☑️ Parâmetros de Consulta
+
+| Parâmetro | Tipo   | Obrigatório | Descrição                          |
+|-----------|--------|-------------|------------------------------------|
+| `region`  | string | Sim         | O código da região (`sg`, `ind`, `br`) |
+| `uid`     | int    | Sim         | O ID do usuário                   |
+| `key`     | string | Sim         | Compre a chave em https://t.me/TrueClasher4 |
+
+### ℹ️ Nota Importante
+
+Parâmetro de consulta `SG` é para todas as regiões que estão sob `clientbp.ggblueshark.com`  
+[`SG`, `ID`, `ME`, `VN`, `TH`, `CIS`, `EU`, `TW`, `MY`, `PK`, `BD`]
+
+Parâmetro de consulta `IND` é apenas para a Índia e está sob `client.ind.freefiremobile.com`  
+[`IND`]
+
+Parâmetro de consulta `BR` é para todas as regiões que estão sob `client.us.freefiremobile.com`  
+[`BR`, `US`, `NA`, `LATAM`]
+
+### 💬 Exemplo de uma Resposta Bem-Sucedida Pode Ser Assim,
+```json
+{
+  "items": [
+    {
+      "itemId": 102000035,
+      "releaseTime": 1709233149
+    },
+    {
+      "itemId": 203000036,
+      "releaseTime": 1710238335
+    },
+    {
+      "itemId": 203000981,
+      "releaseTime": 1706079412
+    },
+    {
+      "itemId": 204033044,
+      "releaseTime": 1706079412
+    },
+    {
+      "itemId": 205033048,
+      "releaseTime": 1706079412
+    },
+    {
+      "itemId": 211000411,
+      "releaseTime": 1706079412
+    },
+    {
+      "itemId": 211000894,
+      "releaseTime": 1706079412
+    },
+    {
+      "itemId": 214000023,
+      "releaseTime": 1706079412
+    },
+    {
+      "itemId": 901040034,
+      "releaseTime": 1727692721
+    },
+    {
+      "itemId": 902000003,
+      "releaseTime": 1710238335
+    },
+    {
+      "itemId": 902040026,
+      "releaseTime": 1710238335
+    },
+    {
+      "itemId": 902040029,
+      "releaseTime": 1710238335
+    },
+    {
+      "itemId": 902040030,
+      "releaseTime": 1710238335
+    },
+    {
+      "itemId": 903040007,
+      "releaseTime": 1727692721
+    },
+    {
+      "itemId": 903043010,
+      "releaseTime": 1710238335
+    },
+    {
+      "itemId": 904040010,
+      "releaseTime": 1727692721
+    },
+    {
+      "itemId": 904090027,
+      "releaseTime": 1707398570
+    },
+    {
+      "itemId": 905039004,
+      "releaseTime": 1710238335
+    },
+    {
+      "itemId": 906036010,
+      "releaseTime": 1706524016
+    },
+    {
+      "itemId": 907102508,
+      "releaseTime": 1706079412
+    },
+    {
+      "itemId": 907104073,
+      "releaseTime": 1727692721
+    },
+    {
+      "itemId": 907104074,
+      "releaseTime": 1727692721
+    },
+    {
+      "itemId": 907104075,
+      "releaseTime": 1727692721
+    },
+    {
+      "itemId": 907104076,
+      "releaseTime": 1727692721
+    },
+    {
+      "itemId": 907104077,
+      "releaseTime": 1727692721
+    },
+    {
+      "itemId": 909040014,
+      "releaseTime": 1727692721
+    },
+    {
+      "itemId": 909043013,
+      "releaseTime": 1707543814
+    },
+    {
+      "itemId": 911004301,
+      "releaseTime": 1710238335
+    },
+    {
+      "itemId": 912037001,
+      "releaseTime": 1706079412
+    },
+    {
+      "itemId": 921047018,
+      "releaseTime": 1735657844
+    }
+  ]
+}
+```
+
+📚 **Objetivo da API**
+
+O objetivo principal de fornecer esta API gratuita é melhorar a experiência da comunidade Free Fire. A Garena Free Fire não oferece APIs oficiais de informações de conta, então esta solução personalizada visa preencher essa lacuna, fornecendo aos jogadores e desenvolvedores dados valiosos da conta.
+
+🧩 **(Alguns dos🤫) Frameworks e Bibliotecas Utilizados**  
+- **Flask**: Um micro framework web para Python para construir os endpoints da API.  
+- **Flask-CORS**: Para lidar com o Compartilhamento de Recursos entre Origens (CORS).  
+- **PyCryptodome**: Para implementar descriptografia e criptografia.  
+- **Requests**: Para fazer requisições HTTP ao servidor.
+
+# 📁 Informações Adicionais
+
+- Esta resposta da API não representa a estrutura real recebida do servidor oficial da Garena.  
+- A estrutura da resposta é simplificada em um formato amigável para facilitar a compreensão de qualquer pessoa, em qualquer nível de programação.
+
+# 😵 Respostas de Erro
+A API pode exibir respostas de erro devido a requisições imprecisas dos usuários!
+
+### Instâncias de Erro e Soluções
+
+- **Código de Erro:**  Havana
+  - **Mensagem:** Região inválida.  
+  - **Solução:** Certifique-se de estar usando um código de região válido.
+
+- **Código de Erro:** 429
+  - **Mensagem:** Requisições anormais detectadas. Evite usar indevidamente a API de Informações para Visitas ou seu IP pode ser bloqueado!  
+  - **Solução:** Evite requisições excessivas ou entre em contato com o provedor da API para assistência.
+
+- **Código de Erro:** 500
+  - **Mensagem:** Ocorreu um erro ao processar sua requisição. Verifique novamente seu ID e Região.  
+  - **Solução:** Verifique novamente o ID de usuário e a região fornecidos e tente novamente a requisição. Se o problema persistir, entre em contato com o provedor da API para suporte.
+
+---
+
+API criada por Sounava777,  
+Todos os direitos reservados!
