@@ -114,7 +114,7 @@ Query Parameter `BR` is for all regions that come under `client.us.freefiremobil
     "accountId": 2129250963,
     "brRankShow": 1,
     "csRankShow": null,
-    "signature": "i've lost my acc,  pls add me again MARVEL-CLINT"
+    "signature": "Sounava777 Never Dies."
   }
 }
 ```
