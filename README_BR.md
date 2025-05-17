@@ -108,7 +108,7 @@ Parâmetro de consulta `BR` é para todas as regiões que estão sob `client.us.
     "accountId": 2129250963,
     "brRankShow": 1,
     "csRankShow": null,
-    "signature": "i've lost my acc,  pls add me again MARVEL-CLINT"
+    "signature": "Sounava777 Never Dies."
   }
 }
 ```
